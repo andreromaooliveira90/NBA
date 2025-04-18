@@ -1,0 +1,81 @@
+Column Description
+The columns are described as follows:
+
+BY PLAYER:
+
+Rank: The rank of the player (ordered by points scored each season).
+Year: An object-type column for Season Year (eg. "2018-19").
+Season Start Year: A numeric (integer) year column (eg. 2018).
+Season Type: Regular Season or Playoffs.
+Player ID: An ID generated for each player.
+Player: The name of the player.
+Team ID: ID generated for each team.
+Team: The team of the player at the respective season.
+Games Played: Games played in the respective season.
+Minutes Played: Minutes played in the respective season.
+FG Made: Field Goals Made.
+FG Attempts: Field Goals Attempted.
+FG %: Field Goal Percentage.
+3-Pt FG Made: 3 Point Field Goals Made.
+3-Pt FG Attempts: 3 Point Field Goals Attempted.
+3-Pt FG %: 3 Point Field Goal Percentage.
+FT Made: Free Throws Made.
+FT Attempts: Free Throws Attempted.
+FT %: Free Throw Percentage.
+Offensive Rebounds: …
+Defensive Rebounds: …
+Rebounds: …
+Assists: …
+Steals: …
+Blocks: …
+Turnovers: …
+Personal Fouls: …
+Points Scored: …
+Efficency: (Points Scored + Rebounds + Assists + Steals + Blocks - Missed FG - Missed FT - Turnovers) / Games Played
+AST/TOV: Assist-to-Turnover ratio
+STL/TOV: Steal-to-Turnover ratio
+NOTES:
+The number of 71 years is due to the fact that the 1951-1952 season is the earliest with available data.
+You should still check for yourself but I didn't register any duplicate rows.
+There are missing values (None, NaN) for some columns in the earlier seasons up until 1979 (check for yourself). This is likely to be due to those stats not having been recorded yet so you might consider that before setting them to 0.
+The NBA has had a steadily growing number of teams per season through the years (for a while now they've had 30 per season). However, there are 61 team names considered in the dataframe:
+['ATL', 'BAL', 'BKN', 'BLT', 'BOS', 'BUF', 'CAP', 'CHA', 'CHH', 'CHI', 'CHP', 'CHZ', 'CIN', 'CLE', 'DAL', 'DEN', 'DET', 'FTW', 'GOS', 'GSW', 'HOU', 'IND', 'INO', 'KCK', 'LAC', 'LAL', 'MEM', 'MIA', 'MIH', 'MIL', 'MIN', 'MNL', 'NJN', 'NOH', 'NOJ', 'NOK', 'NOP', 'NYK', 'NYN', 'OKC', 'ORL', 'PHI', 'PHL', 'PHW', 'PHX', 'POR', 'ROC', 'SAC', 'SAN', 'SAS', 'SDC', 'SDR', 'SEA', 'SFW', 'STL', 'SYR', 'TOR', 'UTA', 'UTH', 'VAN', 'WAS']
+
+It is important to consider that this is due to multiple teams changing names (and location) through the years (and therefore appearing more than once) or simply ceasing to exist (see here and here).
+
+As of the 25th of May, the 2022-23 Playoffs haven't ended. In the meantime we have this but as soon as the Finals end, I'll update this dataset.
+I will soon be uploading a Python Notebook analyzing this data and a PDF report with a much more detailed explanation of that analysis so stay tuned if you're interested :)
+
+-------------------------------------------
+
+Rank: A posição do jogador (ordenado pelos pontos marcados em cada temporada).
+Year: Ano da temporada (como texto, ex.: "2018-19").
+Season Start Year: Ano inicial da temporada (numérico, ex.: 2018).
+Season Type: Tipo de temporada (Temporada Regular ou Playoffs).
+Player ID: Um ID gerado para cada jogador.
+Player: Nome do jogador.
+Team ID: ID gerado para cada time.
+Team: Time do jogador na respectiva temporada.
+Games Played: Jogos jogados na respectiva temporada.
+Minutes Played: Minutos jogados na respectiva temporada.
+FG Made: Arremessos convertidos.
+FG Attempts: Arremessos tentados.
+FG %: Porcentagem de arremessos convertidos.
+3-Pt FG Made: Arremessos de 3 pontos convertidos.
+3-Pt FG Attempts: Arremessos de 3 pontos tentados.
+3-Pt FG %: Porcentagem de arremessos de 3 pontos convertidos.
+FT Made: Lances livres convertidos.
+FT Attempts: Lances livres tentados.
+FT %: Porcentagem de lances livres convertidos.
+Offensive Rebounds: Rebotes ofensivos.
+Defensive Rebounds: Rebotes defensivos.
+Rebounds: Rebotes totais.
+Assists: Assistências.
+Steals: Roubos de bola.
+Blocks: Bloqueios.
+Turnovers: Perdas de posse (erros).
+Personal Fouls: Faltas pessoais.
+Points Scored: Pontos marcados.
+Efficency: Eficiência (Pontos Marcados + Rebotes + Assistências + Roubos + Bloqueios - Arremessos Errados - Lances Livres Errados - Perdas de Posse) / Jogos Jogados.
+AST/TOV: Taxa de Assistências por Perda de Posse.
+STL/TOV: Taxa de Roubos por Perda de Posse.
