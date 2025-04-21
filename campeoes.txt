@@ -1,0 +1,36 @@
+ANO	CAMPEÃO	VICE-CAMPEÃO
+1989	Detroit Pistons	Los Angeles Lakers
+1990	Detroit Pistons	Portland Trail Blazers
+1991	Chicago Bulls	Los Angeles Lakers
+1992	Chicago Bulls	Portland Trail Blazers
+1993	Chicago Bulls	Phoenix Suns
+1994	Houston Rockets	New York Knicks
+1995	Houston Rockets	Orlando Magic
+1996	Chicago Bulls	Seattle SuperSonics
+1997	Chicago Bulls	Utah Jazz
+1998	Chicago Bulls	Utah Jazz
+1999	San Antonio Spurs	New York Knicks
+2000	Los Angeles Lakers	Indiana Pacers
+2001	Los Angeles Lakers	Philadelphia 76ers
+2002	Los Angeles Lakers	New Jersey Nets
+2003	San Antonio Spurs	New Jersey Nets
+2004	Detroit Pistons	Los Angeles Lakers
+2005	San Antonio Spurs	Detroit Pistons
+2006	Miami Heat	Dallas Mavericks
+2007	San Antonio Spurs	Cleveland Cavaliers
+2008	Boston Celtics	Los Angeles Lakers
+2009	Los Angeles Lakers	Orlando Magic
+2010	Los Angeles Lakers	Boston Celtics
+2011	Dallas Mavericks	Miami Heat
+2012	Miami Heat	Oklahoma City Thunder
+2013	Miami Heat	San Antonio Spurs
+2014	San Antonio Spurs	Miami Heat
+2015	Golden State Warriors	Cleveland Cavaliers
+2016	Cleveland Cavaliers	Golden State Warriors
+2017	Golden State Warriors	Cleveland Cavaliers
+2018	Golden State Warriors	Cleveland Cavaliers
+2019	Toronto Raptors	Golden State Warriors
+2020	Los Angeles Lakers	Miami Heat
+2021	Milwaukee Bucks	Phoenix Suns
+2022	Golden State Warriors	Boston Celtics
+
