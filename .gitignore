@@ -3,5 +3,6 @@ __pycache__/
 *.ipynb_checkpoints/
 *.pyc
 *.pyo
+*.xlsx
 .vscode/
 prompts.txt
