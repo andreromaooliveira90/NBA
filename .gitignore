@@ -6,3 +6,4 @@ __pycache__/
 *.xlsx
 .vscode/
 prompts.txt
+commit.txt
